@@ -1,0 +1,563 @@
+/*
+font-family: 'Cairo', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+
+/******************** Start Login Dashbord ********************/
+
+.login-dashboard {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+.invalid{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    z-index: 9;
+}
+
+.valid{
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    z-index: 9;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+/******************** Start Login Dashbord ********************/
+
+
+/******************** Start Dashbord ********************/
+
+@media(min-width:768px) {
+    .wrapper {
+        margin-top: 50px;
+    }
+}
+@media(max-width:768px) {
+    .wrapper {
+        margin-top: 70px;
+    }
+}
+
+.wrapper {
+    padding-left: 0;
+}
+
+.page-wrapper {
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+}
+
+@media(min-width:768px) {
+    .wrapper {
+        padding-right: 225px;
+    }
+    .page-wrapper {
+        padding: 22px 10px;
+    }
+}
+
+
+/* Start Navbar Dashbord */
+
+.top-nav {
+    padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    /* float: left; */
+}
+
+.top-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    color: #fff;
+    background-color: #1a242f;
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+    padding: 5px 10px;
+}
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        top: 60px;
+        right: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        border-top: 1px rgba(0, 0, 0, .5) solid;
+        overflow-y: auto;
+        background-color: #222;
+        transform: translateX(100%);
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+    }
+    .side-nav>li>a {
+        width: 225px;
+        text-align: center;
+        border-bottom: 1px rgba(0, 0, 0, .3) solid;
+    }
+    .side-nav>li>a>i {
+        float: left;
+    }
+    .side-nav li a:hover,
+    .side-nav li a:focus {
+        outline: none;
+        background-color: #1a242f !important;
+    }
+}
+
+.side-nav>li>ul {
+    padding: 0;
+    border-bottom: 1px rgba(0, 0, 0, .3) solid;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    /*color: #999;*/
+    color: #fff;
+}
+
+.side-nav>li>ul>li>a:hover {
+    color: #fff;
+}
+
+.navbar .nav>li>a>.label {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    top: 14px;
+    right: 6px;
+    font-size: 10px;
+    font-weight: normal;
+    min-width: 15px;
+    min-height: 15px;
+    line-height: 1.0em;
+    text-align: center;
+    padding: 2px;
+}
+
+.navbar .nav>li>a:hover>.label {
+    top: 10px;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+
+/* End Navbar Dashbord */
+
+
+/* Start Card Dashbord */
+
+.wrapper .page-wrapper .page-content .cards .card-1,
+.card-2,
+.card-3,
+.card-4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 160px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    border: 1px solid #777;
+    color: #fff;
+}
+
+.wrapper .page-wrapper .page-content .cards h3 {
+    font-size: 20px;
+}
+
+.wrapper .page-wrapper .page-content .cards p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.wrapper .page-wrapper .page-content .cards .card-1 {
+    background-image: linear-gradient(#fa4251, #fa4251);
+}
+
+.wrapper .page-wrapper .page-content .cards .card-2 {
+    background-image: linear-gradient(#00b5e9, #00b5e9);
+}
+
+.wrapper .page-wrapper .page-content .cards .card-3 {
+    background-image: linear-gradient(#ff8300, #ff8300);
+}
+
+.wrapper .page-wrapper .page-content .cards .card-4 {
+    background-image: linear-gradient(#00b26f, #00b26f);
+}
+
+.wrapper .page-wrapper .page-content .cards i {
+    position: absolute;
+    top: 0;
+    transform: translateY(50%);
+    left: 10%;
+    color: rgba(255, 255, 255, 0.42);
+    transition: .15s all ease;
+}
+
+
+/* End Card Dashbord */
+
+
+/* Start Latest Content */
+
+.latest-box-model {
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.latest-box-model .latest-content-parent {
+    padding-bottom: 10px;
+}
+
+.latest-box-model .latest-content-parent .img-parent {
+    height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+
+/* End Latest Content */
+
+
+/* Start Add Anime Page */
+
+.add-craftsmen .input-group {
+    position: relative;
+}
+
+.add-craftsmen input[type='file'] {
+    opacity: 0;
+    position: absolute;
+    height: 46px;
+    width: 96%;
+}
+
+.add-craftsmen .custom-input {
+    width: 96%;
+    height: 46px;
+    padding: 10px;
+    padding-top: 6px;
+    position: absolute;
+    font-size: 20px;
+    color: rgb(153, 163, 171);
+    background-color: white;
+    border: 1px solid #CCC;
+    font-weight: 200;
+}
+
+.add-craftsmen span {
+    height: 46px
+}
+
+
+/* End Add Anime Page */
+
+
+/************ Start Page Add Craftsmen *****************/
+
+.wrapper .page-wrapper .page-content .add-craftsmen form {
+    padding: 30px 50px 50px 50px
+}
+
+.wrapper .page-wrapper .page-content .add-craftsmen form .input-group {
+    margin-bottom: 15px;
+}
+
+.wrapper .page-wrapper .page-content .add-craftsmen form .input-group input {
+    border-radius: 5px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.wrapper .page-wrapper .page-content .add-craftsmen select {
+    font-family: 'Cairo', sans-serif;
+    padding-top: 5px
+}
+
+.wrapper .page-wrapper .page-content .add-craftsmen form .input-group span {
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+.wrapper .page-wrapper .page-content .add-craftsmen form button {
+    margin-top: 30px;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+/************ End Page Add Craftsmen *****************/
+
+.search {
+    width: 100%;
+    position: relative;
+    float: right;
+}
+
+.search input {
+    width: 100%;
+    padding: 0 10px;
+    height: 35px;
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.search input[type=submit] {
+    width: 100%;
+    color: white;
+    float: right;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search .fa-search {
+    position: absolute;
+    color: rgba(0, 0, 0, .5);
+    top: 50%;
+    right: 100%;
+    cursor: pointer;
+    font-size: 25px;
+    transform: translate(200%, -70%);
+}
+
+.content {
+    border: 2px solid rgba(210, 210, 210, 0.5);
+    padding: 20px 10px;
+    clear: both;
+    width: 100%;
+    margin: 0;
+}
+
+.box {
+    border: 2px solid rgba(210, 210, 210, 0.5);
+}
+
+.box-img {
+    overflow: hidden;
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+.box {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.cover {
+    display: flex;
+    margin: 10px 0;
+}
+
+.box .remove {
+    float: right;
+    background-color: rgb(248, 52, 52);
+    margin: 10px;
+    border: none;
+    font-size: 17px;
+    padding: 3px 20px;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+}
+
+.box .add {
+    float: left;
+    background-color: rgb(50, 50, 252);
+    margin: 10px;
+    font-size: 15px;
+    border: none;
+    text-decoration: none;
+    padding: 3px 20px;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+}
+
+.box-img h3 {
+    position: relative;
+    color: #222;
+    text-align: center;
+}
+
+.box h4 {
+    text-align: center;
+    color: black;
+}
+
+.box-img img {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.header {
+    padding: 5%;
+    text-align: center;
+    position: relative;
+    max-height: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.header img {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-29%) scale(0.5);
+    -moz-transform: translateX(-50%) translateY(-29%) scale(0.5);
+    -o-transform: translateX(-50%) translateY(-29%) scale(0.5);
+    -ms-transform: translateX(-50%) translateY(-29%) scale(0.5);
+    transform: translateX(-50%) translateY(-29%) scale(0.5);
+}
+
+.container {
+    width: 100%;
+    border-top: 2px solid rgba(210, 210, 210, 0.5);
+}
+
+.container div {
+    float: left;
+    margin: 20px 0;
+}
+
+.container div h1 {
+    margin: 0;
+}
+
+.remove-img {
+    position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    float: right;
+    background-color: rgb(248, 52, 52);
+    margin: 10px;
+    border: none;
+    font-size: 17px;
+    padding: 3px 20px;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+}
+
+.content-ltr {
+    width: 45%;
+}
+
+.content-ltr a {
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    font-size: 20px;
+    text-align: center;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.content-name {
+    width: 55%;
+}
+
+.fa-arrow-left {
+    padding: 0px 20px;
+    font-size: 15px;
+}
+
+select {
+    width: 100%;
+    height: 46px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.fa-italic {
+    font-size: 20px;
+}
+
+option {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    width: 400px;
+    color: #555;
+    font-family: 'Cairo', sans-serif;
+    margin: 30px 50px 50px 50px;
+}
